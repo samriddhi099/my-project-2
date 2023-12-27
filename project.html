@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with+device-width,initial-scale=1.0"> 
+        <title> TOURIST </title>
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet " href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        </head>rel="stylesheet">
+<link rel="stylesheet " href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        </head>
+    <body>
+        <section class= "header">
+            <nav>
+                <a href="index.html"><img src="22.jpg" height="80", width="40"></a><br>
+                <div class ="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">PESCE</a></li>
+                            <li><a href="">ABOUT</a></li>
+                                <li><a href="">PLACES</a></li>
+                                    <li><a href="">BLOG</a></li>
+                                    <li><a href="">HOTELS</a></li>
+                                        <li><a href="">CONTACT</a></li>
+                                        <li><a href="">REVIEW</a></li>
+                    </ul>
+                </div>
+
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>MYSORE TOURISM</h1>
+                <p>"Explore, Discover, and Experience: Your Ultimate Guide to Unforgettable Adventures!" </p>
+                <a href="" class="hero-btn">Visit Us To Know More</a>
+            </div>
+        </section>
+          
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+    </html>
